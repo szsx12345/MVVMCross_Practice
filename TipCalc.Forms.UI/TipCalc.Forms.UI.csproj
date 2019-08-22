@@ -5,13 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MvvmCross.Core" Version="5.7.0" />
-    <PackageReference Include="MvvmCross.Forms" Version="6.3.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\TipCalc.Core\TipCalc.Core.csproj" />
+    <None Update="FormsApp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Pages\TipView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
   </ItemGroup>
 
 </Project>
